@@ -1,0 +1,9 @@
+figure {
+    width: 25%;
+    border: 1px solid white;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .8);
+    float: left;
+}
