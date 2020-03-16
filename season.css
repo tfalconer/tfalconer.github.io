@@ -1,0 +1,258 @@
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap"rel="stylesheet" > html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: powderblue;
+    font-family: 'Indie Flower', cursive;
+    text-align: left;
+    padding: 10px 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 15px
+}
+
+body#summer {
+    background-color: lightyellow;
+}
+
+body#winter {
+    background-color: 303030;
+}
+
+body#spring {
+    background-color: lightcyan;
+}
+
+body#fall {
+    background-image: url(prettyleaf.jpg);
+}
+
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#winter#wrap {
+    background-color: 303030;
+}
+
+#summer#wrap {
+    background-color: orangered;
+}
+
+#spring#wrap {
+    background-color: #65beff;
+}
+
+#fall#wrap {
+    background-color: orange;
+}
+
+header {
+    background-color: powderblue;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+
+}
+
+#spring header {
+    background-color: #65beff;
+}
+
+#winter header {
+    background-color: #c4c3d0;
+}
+
+header a {
+    color: midnightblue;
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    text-decoration-color: midnightblue;
+    font-family: chalkboard;
+}
+
+#winter header a {
+    color: ghostwhite;
+    text-decoration-color: white;
+}
+
+#summer header a {
+    color: red;
+    text-decoration-color: red;
+}
+
+#spring header a {
+    color: #fc7756;
+    text-decoration-color: #fc7756;
+}
+
+#fall header a {
+    color: black;
+    text-decoration-color: black;
+}
+
+#fall header {
+    background-color: maroon;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: powderblue;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Indie Flower', cursive;
+}
+
+nav a {
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav img {
+    width: 100%;
+}
+
+#winter nav {
+    color: black;
+    background-color: white;
+}
+
+#spring nav {
+    color: black;
+    background-color: #65beff;
+}
+
+#summer nav {
+    background-color: white;
+}
+
+#fall nav {
+    background-color: #ffb347;
+    color: black;
+}
+
+#winter section {
+    padding: 20px;
+    overflow: auto;
+    background-color: white;
+    color: black;
+}
+
+#spring section {
+    padding: 20px;
+    overflow: auto;
+    background-color: lightcyan;
+    color: black;
+}
+
+#fall section {
+    padding: 20px;
+    overflow: auto;
+    background-color: #ffb347;
+    color: black;
+}
+
+#winter section h1 {
+    color: black;
+    font-size: 180%;
+    margin: 0;
+    text-align: left;
+    background-color: white;
+}
+
+
+#spring section h1 {
+    color: black;
+    font-size: 180%;
+    margin: 0;
+    text-align: left;
+    background-color: lightcyan;
+}
+
+#winter section img {
+    float: right;
+    border-radius: 50%;
+}
+
+#spring section img {
+    float: right;
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+}
+
+#summer section img {
+    float: right;
+    border-radius: 40%;
+    width: 30%;
+    height: auto;
+}
+
+#fall section img {
+    float: right;
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+}
+
+#fall section h1 {
+    color: black;
+    font-size: 180%;
+    margin: 0;
+    text-align: left;
+    background-color: #ffb347;
+}
+
+.tide {
+    width: 30%;
+    float: right;
+}
+
+footer {
+    background-color: powderblue;
+    color: darkslategray;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#spring footer {
+    background-color: #65beff;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#fall footer {
+    background-color: maroon;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+#winter footer {
+    background-color: #c4c3d0;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
