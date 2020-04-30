@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+body {
+    background-image: url(whitee.jpg);
+    font-family: 'Lato', sans-serif;
+}
+
+header img {
+    width: 100%;
+}
+
+nav a:hover {
+    background-color: none;
+    text-decoration: none;
+    color: lightpink;
+}
+
+nav,
+footer {
+    padding: 20px;
+}
+
+nav {
+    background-color: #6b3823;
+    text-align: center;
+}
+
+
+nav ul,
+footer ul {
+    margin: 0;
+}
+
+nav li,
+footer li {
+    display: inline;
+    margin: 20px;
+}
+
+nav a,
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+section {
+    overflow: auto;
+    width: 100%;
+    background-color: #312f30;
+}
+
+aside {
+    width: 18%;
+    float: left;
+    background-color: #312f30;
+
+}
+
+aside h1 {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+aside li {
+    margin: 0 0 22px;
+
+}
+
+article {
+    width: 74%;
+    float: right;
+    background-color: white;
+    padding: 25px;
+}
+
+article h1 {
+    font-weight: bold;
+    margin: 15px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+article p {
+    margin: 15px;
+}
+
+article img {
+    margin: 15px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #F9C48B;
+    font-size: 11px;
+}
+
+
+footer a:hover {
+    background-color: none;
+    text-decoration: none;
+    color: lightpink;
+}
+
+@media (min-width: 480px) and (max-width:700px) {
+
+    aside,
+    article {
+        width: 96%
+    }
+
+    #wrap {
+        width: 100%;
+    }
+
+    nav li {
+        display: block;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    aside,
+    article {
+        width: 99%;
+        padding: 0;
+
+    }
+
+    #wrap {
+        width: 100%;
+    }
+
+    article img {
+        float: none;
+        width: 250px;
+    }
+
+    nav li,
+    footer li {
+        display: block;
+    }
+
+}
